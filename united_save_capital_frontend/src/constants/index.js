@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, bitcoin, shield, exchange  } from "../assets";
 
 export const navLinks = [
   {
@@ -22,24 +22,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: exchange,
+    title: "Personal Loan",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "We offer excellent loan options with minimal interest rates to help you meet your financial needs. Available to everyone, regardless of your status.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "A highly secure and well-monitored way to save, invest, and transfer your funds with complete assurance.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: bitcoin,
+    title: "Digital Assets",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Digital assets, such as Bitcoin, are a growing investment class. Our digital asset fund provides investors with access to Bitcoin and other digital assets.",
   },
 ];
 

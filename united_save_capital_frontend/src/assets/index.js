@@ -7,9 +7,9 @@ import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
+import bitcoin from "./bitcoin.png";
+import shield from "./Shield.png";
+import exchange from "./exchange.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -24,6 +24,8 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import hero_img from './hero_img.png'
+import banner_shape_1 from './banner-shape-1.png';
+import banner_shape_2 from './banner-shape-2.png';
 
 export {
   airbnb,
@@ -35,9 +37,9 @@ export {
   logo,
   quotes,
   robot,
-  send,
+  bitcoin,
   shield,
-  star,
+  exchange,
   menu,
   close,
   google,
@@ -51,5 +53,8 @@ export {
   people01,
   people02,
   people03,
-  hero_img 
+  hero_img,
+  banner_shape_1,
+  banner_shape_2
+
 };

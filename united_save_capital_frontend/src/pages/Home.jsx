@@ -1,3 +1,4 @@
+import Billing from "../components/home/Billing";
 import Business from "../components/home/Business";
 import Hero from "../components/home/Hero";
 import Stats from "../components/home/Stats";
@@ -18,7 +19,7 @@ const Home = ()=>{
     };
     return(
         <>
-            <div className={`bg-primary ${styles.flexStart}`}>
+            <div className={`bg-primary `}>
                 <div className={`${styles.boxWidth}`}>
                     <Hero />
                 </div>
@@ -28,7 +29,7 @@ const Home = ()=>{
                 <div className={`${styles.boxWidth}`}>
                     <Stats />
                     <Business />
-                    Billing
+                    <Billing />
                     CardDeal
                     Testimonials
                     Clients

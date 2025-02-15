@@ -4,22 +4,18 @@ import Navbar from "../components/Navbar";
 const BaseLayout = ()=>{
 
     return(
-       <div className="bg-primary w-full overflow-hidden">
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <Navbar />
-                </div>
+        <div className="bg-primary w-full overflow-hidden">
+            <div className={`${styles.boxWidth}`}>
+                <Navbar />
             </div>
-
-
-
+            
             <main >
                 <Outlet />
             </main>
             <footer>
                 footer
             </footer>
-       </div>
+        </div>
     )
 }
 
