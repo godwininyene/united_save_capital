@@ -1,25 +1,17 @@
+import Testimonials from "../components/home/Testimonials";
 import Billing from "../components/home/Billing";
 import Business from "../components/home/Business";
+import CardDeal from "../components/home/CardDeal";
 import Hero from "../components/home/Hero";
 import Stats from "../components/home/Stats";
 import styles from "../style";
+import Clients from "../components/home/Clients";
+import CTA from "../components/home/CTA";
 
 const Home = ()=>{
-    const submit = async (e) => {
-        e.preventDefault();
-        
-        const formData = new FormData(e.target);
-        const res = await fetch("http://127.0.0.1/blogger/index.php", {
-            method: "POST",
-            body: formData,  // Do NOT set 'Content-Type', fetch will do it for us
-        });
-
-        const data = await res.json();
-        console.log(data);
-    };
     return(
         <>
-            <div className={`bg-primary `}>
+            <div className={``}>
                 <div className={`${styles.boxWidth}`}>
                     <Hero />
                 </div>
@@ -30,11 +22,10 @@ const Home = ()=>{
                     <Stats />
                     <Business />
                     <Billing />
-                    CardDeal
-                    Testimonials
-                    Clients
-                    CTA
-                    Footer
+                    <CardDeal />
+                    <Testimonials />
+                    <Clients />
+                    <CTA />
                 </div>
             </div>
         </>

@@ -2,7 +2,7 @@ const styles = {
   boxWidth: "max-w-[1140px] w-full mx-auto px-4",
 
   heading2: "font-poppins font-semibold xs:text-[48px] text-[45px] text-white ss:leading-[70px] leading-[60px] w-full",
-  paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
+  paragraph: "font-poppins text-dimWhite text-[18px] leading-[25px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -16,11 +16,11 @@ const styles = {
 };
 
 export const layout = {
-  section: `flex md:flex-row flex-col ${styles.paddingY}`,
+  section: `flex md:flex-row flex-col ${styles.paddingY} items-start`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
+  sectionImg: `flex-1 flex ${styles.flexCenter}  ml-0 md:mt-0 mt-10 relative`,
 
   sectionInfo: `flex-1 flex-col`,
 };

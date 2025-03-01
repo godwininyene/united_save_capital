@@ -2,6 +2,10 @@ import { useState } from 'react'
 import {createBrowserRouter, createRoutesFromElements, RouterProvider ,Route} from 'react-router-dom';
 import BaseLayout from './layouts/BaseLayout';
 import Home from './pages/Home';
+import About from './pages/About';
+import Loans from './pages/Loans';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -11,6 +15,10 @@ function App() {
 
       <Route path='/' element={<BaseLayout />}>
         <Route index element={<Home />}></Route>
+        <Route path='/about' element={<About />}></Route>
+        <Route path='/loans' element={<Loans />}></Route>
+        <Route path='/services' element={<Services />}></Route>
+        <Route path='/contact_us' element={<Contact />}></Route>
       </Route>
     
     </>
@@ -18,21 +26,6 @@ function App() {
 
   return (
     <RouterProvider router={router} />
-    // <>
-    
-    //   <h1 className='bg-red-500'>Vite + React</h1>
-    //   <div className="card">
-    //     <button onClick={() => setCount((count) => count + 1)}>
-    //       count is {count}
-    //     </button>
-    //     <p>
-    //       Edit <code>src/App.jsx</code> and save to test HMR
-    //     </p>
-    //   </div>
-    //   <p className="read-the-docs">
-    //     Click on the Vite and React logos to learn more
-    //   </p>
-    // </>
   )
 }
 
